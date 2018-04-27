@@ -24,7 +24,7 @@ def sendmail( userid, ip, vpnip, vpndate, constatus, connected):
     smtp.connect('MAIL_SERVER_IP', 587)
     #smtp.login('USERNAME@DOMAIN', 'PASSWORD')
     from_addr = "Sender-EMAIL-HERE"
-    to_addr = "Repipent-EMAIL-HERE"
+    to_addr = "Recipent-EMAIL-HERE"
     subj = "VPN01 - A VPN Client has been Detected"
     strmessage_text = """
 A new VPN Client has been detected:
